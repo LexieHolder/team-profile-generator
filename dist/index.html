@@ -20,8 +20,12 @@
             
             <div class="card-body">
               <h5 class="card-title text-white bg-primary">Manager</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+              <h4>${manager.name}</h4>
+              <p class="card-text">
+                <p class="id"> ID: ${manager.id}</p>
+                <p class="email">Email: ${manager.email}</p>
+                <p class="office">Office Number ${manager.officeNumber}</p>
+              </p>
             </div>
           </div>
 
@@ -30,17 +34,25 @@
             
             <div class="card-body">
               <h5 class="card-title text-white bg-primary">Engineer</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+              <h4>${engineer.name}</h3>
+              <p class="card-text">
+                <p class="id"> ID: ${engineer.id}</p>
+                <p class="email">Email: ${engineer.email}</p>
+                <p class="github">Github: ${engineer.github}</p>
+              </p>
             </div>
-          </div>
+            </div>
 
         <!--employee card-->
         <div class="card" style="width: 18rem;">
             
             <div class="card-body">
               <h5 class="card-title text-white bg-primary">Employee</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h4>
+                    ${employee.name}
+                </h4>
+                <p>ID: ${employee.id}</p>
+                <p>Email: ${employee.email}</p>
               
             </div>
           </div>
@@ -50,8 +62,10 @@
             
             <div class="card-body">
               <h5 class="card-title text-white bg-primary">Intern</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+              <h4>${intern.name}</h4>
+              <p class="id">ID: ${intern.id}</p>
+              <p class="email">Email: ${intern.email}</p>
+              <p class="school">School: ${intern.school}</p>
             </div>
           </div>
 
