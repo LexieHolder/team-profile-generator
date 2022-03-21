@@ -55,23 +55,25 @@ const generateIntern = function (intern) {
 
 //generate employee and default, fill in full html page
 const generatePage = function (employees) {
-`<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Team Profile Generator</title>
-</head>
-<body>
-    <!--make big, red box at top of screen-->
-    <header class="d-flex flex-wrap justify-content-center text-white bg-danger">
-        <h1>My Team</h1>
-    </header>
-
-    <!--make individual cards for team members-->
-    <main> 
+    `<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>Team Profile Generator</title>
+    </head>
+    <body>
+        <!--make big, red box at top of screen-->
+        <header class="d-flex flex-wrap justify-content-center text-white bg-danger">
+            <h1>My Team</h1>
+        </header>
+    
+        <!--make individual cards for team members-->
+        <main>
+            <!--group of cards-->
+            <div class="card-group">
     ${employees}
     </main>
     </body>
